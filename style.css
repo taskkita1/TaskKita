@@ -1,0 +1,53 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f5f7fb;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: white;
+}
+
+.btn {
+  background: #2d6cdf;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+.hero {
+  padding: 20px;
+}
+
+.hero span {
+  color: #2d6cdf;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.full {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.kategori {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
