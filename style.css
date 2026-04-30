@@ -15,8 +15,8 @@ body {
 }
 
 .logo {
+  font-size: 18px; /* kecilin */
   font-weight: bold;
-  color: #2d6cdf;
 }
 
 .btn {
