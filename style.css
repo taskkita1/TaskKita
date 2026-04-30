@@ -13,11 +13,10 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
-/* LOGO */
 .logo {
-  height: 50px;   /* ini yang bikin kecil */
+  height: 35px;
+  width: auto;
 }
-
 /* BUTTON */
 .btn {
   background: #2d6cdf;
