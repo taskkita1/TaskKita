@@ -1,34 +1,22 @@
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px 20px;
-  display: flex;
-  align-items: center;
-  background: white;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.logo {
-  height: 40px;
-}
-
 body {
-  padding-top: 70px;
-}
-
-body {
-  font-family: Arial;
+  font-family: 'Segoe UI', sans-serif;
   margin: 0;
   background: #f5f7fb;
 }
 
+/* NAVBAR */
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 15px;
+  align-items: center;
+  padding: 15px 20px;
   background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.logo {
+  font-weight: bold;
+  color: #2d6cdf;
 }
 
 .btn {
@@ -37,20 +25,38 @@ body {
   border: none;
   padding: 10px 15px;
   border-radius: 8px;
+  cursor: pointer;
 }
 
+/* HERO */
 .hero {
-  padding: 20px;
+  padding: 25px 20px;
+}
+
+.hero h1 {
+  font-size: 22px;
+  line-height: 1.4;
 }
 
 .hero span {
   color: #2d6cdf;
 }
 
-input {
+.hero p {
+  color: #666;
+  font-size: 14px;
+}
+
+/* SEARCH */
+.search-box {
+  margin-top: 15px;
+}
+
+.search-box input {
   width: 100%;
-  padding: 10px;
-  margin-top: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
 }
 
 .full {
@@ -58,17 +64,19 @@ input {
   margin-top: 10px;
 }
 
+/* KATEGORI */
 .kategori {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  gap: 15px;
   padding: 20px;
 }
 
 .card {
   background: white;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 15px;
   text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  font-weight: 500;
 }
-
