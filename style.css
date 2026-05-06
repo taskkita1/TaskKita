@@ -90,3 +90,12 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
   font-weight: 500;
 }
+
+ body {
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
+
+ body.fade-out {
+  opacity: 0;
+}
