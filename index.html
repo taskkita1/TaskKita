@@ -32,15 +32,14 @@
   <div class="card">💧<br>Ledeng</div>
 </section>
 
-  <script>
+<script>
 function scrollKeForm(){
-  document.getElementById("formOrder").scrollIntoView({
-    behavior: "smooth"
-  });
+  const el = document.getElementById("formOrder");
+  if (el) {
+    el.scrollIntoView({ behavior: "smooth" });
+  }
 }
 </script>
-
-</body>
-</html>
+  
 </body>
 </html>
