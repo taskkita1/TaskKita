@@ -35,13 +35,21 @@
 </div>
   
 <script>
-function scrollKeForm(){
-  const el = document.getElementById("formOrder");
-  if (el) {
-    el.scrollIntoView({ behavior: "smooth" });
-  }
+function pindahHalaman(url){
+  document.body.classList.add("fade-out");
+
+  setTimeout(() => {
+    window.location.href = url;
+  }, 300); // delay biar animasi jalan dulu
 }
 </script>
-  
+  <script>
+window.onload = function(){
+  document.body.style.opacity = 0;
+  setTimeout(() => {
+    document.body.style.opacity = 1;
+  }, 50);
+}
+  </script>
 </body>
 </html>
