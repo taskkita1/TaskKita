@@ -14,8 +14,8 @@ body {
 }
 
 .btn-biru {
-  background: #2f6fed;
-  color: white;
+  background: #2f6fed !important;
+  color: white !important;
   border: none;
   padding: 10px 16px;
   border-radius: 8px;
