@@ -1,24 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-  <title>Form Pendaftaran</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pasang Pekerjaan</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<h2>Pasang Pekerjaan</h2>
+<header class="navbar">
+  <h2>TaskKita</h2>
+</header>
 
-<input placeholder="Nama"><br><br>
-<input placeholder="Alamat"><br><br>
+<section class="hero">
+  <h1>Pasang pekerjaan dengan mudah</h1>
+  <p>Isi data di bawah ini</p>
+</section>
 
-<select>
-  <option>Tukang Listrik</option>
-  <option>AC</option>
-  <option>Cleaning</option>
-</select><br><br>
+<div class="card">
+  <input placeholder="Nama">
+  <input placeholder="Alamat">
 
-<textarea placeholder="Deskripsi pekerjaan"></textarea><br><br>
+  <select>
+    <option>Tukang Listrik</option>
+    <option>AC</option>
+    <option>Cleaning</option>
+  </select>
 
-<button>Kirim</button>
+  <textarea placeholder="Deskripsi pekerjaan"></textarea>
+
+  <button class="btn full">Kirim</button>
+</div>
 
 </body>
 </html>
