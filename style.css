@@ -13,6 +13,19 @@ body {
   box-shadow: 0 4px 16px rgba(0,0,0,0.05);
 }
 
+.btn-biru {
+  background: #2f6fed;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn-biru:hover {
+  background: #1e4fc4;
+}
+
 .logo {
   height: 100px;
   width: auto;
